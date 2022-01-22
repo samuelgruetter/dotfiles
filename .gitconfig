@@ -1,0 +1,2 @@
+[pager]
+    diff = /usr/share/git-core/contrib/diff-highlight | less
