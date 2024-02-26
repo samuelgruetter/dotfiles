@@ -72,3 +72,11 @@
 ;; Font size in all buffers
 ;; can also run this with M-x eval-expression for just temporary (but all buffers)
 (set-face-attribute 'default nil :height 190)
+
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(proof-locked-face ((((type nil)) (:extend t :background "seagreen4")))))
+;; Note: replaced t by ((type nil)) to only apply this setting if the type of the display is nil, which means it's not graphical, but a terminal
